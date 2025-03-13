@@ -26,7 +26,6 @@
             </div>
         </div>
     </div>
-
     <!-------------- About ---------->
     <div id="about">
         <div class="container">
@@ -36,7 +35,11 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>I am a frontend-stack developer and I love coding. I am currently focusing on backend development and working on various MERN stack projects. I have also studied data analysis.</p>
+                    <p>I’m a front-end developer passionate about creating innovative, user-centric web interfaces.
+                         Skilled in HTML, CSS, JavaScript, and ReactJS, I craft responsive, intuitive, and beautifully designed solutions, 
+                         turning complex ideas into seamless user experiences. Currently, I’m expanding my expertise by learning back-end development.
+                          I’m also proficient in coding with C++, Python, and data analysis. I value collaboration, creativity, and continuous learning,
+                           always striving to exceed user expectations.</p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
@@ -56,7 +59,7 @@
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2023-2027</span><br>K.K. Wagh College of Engineering Education and Research<br>CGPA: 8.75</li>
+                            <li><span>2023-2027</span><br>K.K. Wagh College of Engineering Education and Research<br>CGPA: 8.90</li>
                             <li><span>HSC</span><br>Percentage: 83%</li>
                             <li><span>SSC</span><br>Percentage: 96%</li>
                         </ul>
@@ -75,19 +78,19 @@
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
                     <p>Creating responsive and modern web interfaces tailored to client needs.</p>
-                    <a href="#">Learn more</a>
+                    <a href="https://vercel.com/sayali-jadhavs-projects-6f155782/pravah-ui">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-crop-simple"></i>
                     <h2>UI/UX Design</h2>
                     <p>Designing intuitive and user-friendly interfaces for websites and mobile apps.</p>
-                    <a href="#">Learn more</a>
+                    <a href="https://github.com/Sayali1357/homely-bites.git">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-app-store-ios"></i>
                     <h2>App Design</h2>
                     <p>Designing and prototyping interactive and engaging mobile applications.</p>
-                    <a href="#">Learn more</a>
+                    <a href="https://vercel.com/sayali-jadhavs-projects-6f155782/pravah-ui">Learn more</a>
                 </div>
             </div>
         </div>
@@ -103,7 +106,7 @@
                     <div class="layer">
                         <h3>Homely Bites</h3>
                         <p>The website connects local houswives with hostel student providing homemade meals and other hand contributing to the family income.</p>
-                        <a href="https://github.com/Sayali1357/homely-bites.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://tasteofhome-ashy.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -115,15 +118,16 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="" alt="Music App">
+                    <img src="images/work3.png" alt="Music App">
+                    
                     <div class="layer">
                         <h3>Music App</h3>
                         <p>Discover and stream music with our innovative music app. Download it today.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/Sayali1357/homely-bites.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See more</a>
+            <a href="https://github.com/Sayali1357" class="btn">See more</a>
         </div>
     </div>
 
@@ -144,6 +148,7 @@
                 </div>
                 <a href="https://drive.google.com/file/d/173iBKJOSD3dkPI4lqhcfMyk0EU8Pehub/view?usp=drive_link" class=" btn btn2 ">Download Resume</a>
             </div>
+
         </div>
     </div>
 
@@ -161,6 +166,17 @@
 
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function openmenu(){
+            sidemeu.style.right ="-200px";
         }
     </script>
 </body>
